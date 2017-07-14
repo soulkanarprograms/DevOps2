@@ -1,3 +1,6 @@
 ---
-- include: virtualbox.yml
-- include: vagrant.yml 
+- name: Load a variable file for hostbase role
+  include_vars: "{{ item }}"
+  with_items:
+    - "vagrant.yml"
+    - "virtualbox.yml"
