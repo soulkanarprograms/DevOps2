@@ -3,7 +3,7 @@
 mypassword=$1
 
 #Repository URL
-git_URL="https://github.com/soulkanarprograms/DevOps.git"
+git_URL="https://github.com/soulkanarprograms/DevOps2.git"
 
 #If mypassword is set then do not ask for pasword in prompt command
 if [ -z '$mypassword' ] ; then
