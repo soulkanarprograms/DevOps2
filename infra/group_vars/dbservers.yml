@@ -1,0 +1,9 @@
+---
+# Groups are nice for organization, but that’s not all groups are good for. 
+# You can also assign variables to them! For instance, atlanta has its own NTP servers, so when setting up ntp.conf, we should use them.
+# Variables aren’t just for geographic information either!
+# Maybe the webservers have some configuration that doesn’t make sense for the database servers
+
+# file: group_vars/dbservers
+# apacheMaxRequestsPerChild: 3000
+# apacheMaxClients: 900

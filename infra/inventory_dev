@@ -1,0 +1,28 @@
+# file: development
+
+[bh-webservers]
+192.168.122.xxx
+
+[bh-dbservers]
+192.168.122.xxx
+
+[bh-ciservers]
+192.168.122.xxx
+
+# webservers in all geos
+[webservers:children]
+bh-webservers
+
+# dbservers in all geos
+[dbservers:children]
+bh-dbservers
+
+# ciservers in all geos
+[ciservers:children]
+bh-ciservers
+
+# everything in the bh geo
+[bh:children]
+bh-webservers
+bh-dbservers
+bh-ciservers

@@ -1,0 +1,7 @@
+---
+# Groups are nice for organization, but that’s not all groups are good for. 
+# You can also assign variables to them! For instance, atlanta has its own NTP servers, so when setting up ntp.conf, we should use them.
+
+# file: group_vars/rj
+#ntp: ntp-atlanta.example.com
+#backup: backup-atlanta.example.com  

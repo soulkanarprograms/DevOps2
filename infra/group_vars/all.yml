@@ -1,0 +1,8 @@
+---
+# Groups are nice for organization, but that’s not all groups are good for. 
+# If we had any default values, or values that were universally true, we would put them in a file called group_vars/all:
+
+
+# file: group_vars/all
+# ntp: ntp-boston.example.com
+# backup: backup-boston.example.com

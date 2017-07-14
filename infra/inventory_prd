@@ -1,0 +1,33 @@
+# file: production
+
+#[rj-webservers]
+#192.168.122.xxx
+
+#[rj-dbservers]
+#192.168.122.xxx
+
+[bh-webservers]
+192.168.122.xxx
+
+[bh-dbservers]
+192.168.122.xxx
+
+# webservers in all geos
+[webservers:children]
+#rj-webservers
+bh-webservers
+
+# dbservers in all geos
+[dbservers:children]
+#rj-dbservers
+bh-dbservers
+
+# everything in the rj geo
+#[rj:children]
+#rj-webservers
+#rj-dbservers
+
+# everything in the bh geo
+[bh:children]
+bh-webservers
+bh-dbservers

@@ -1,0 +1,6 @@
+---
+# file: site.yml
+- include: webservers.yml
+- include: dbservers.yml 
+- include: ciservers.yml 
+- include: hostbase.yml

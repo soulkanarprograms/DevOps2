@@ -1,0 +1,12 @@
+# file: hostbaseservers
+
+[bh-hostbaseservers]
+127.0.0.1
+
+# host base in all geos
+[hostbaseservers:children]
+bh-hostbaseservers
+
+# everything in the bh geo
+[bh:children]
+bh-hostbaseservers

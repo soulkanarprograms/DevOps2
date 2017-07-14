@@ -1,0 +1,6 @@
+---
+# file: ciservers.yml
+- hosts: ciservers
+  roles:
+    - common
+    - citier 

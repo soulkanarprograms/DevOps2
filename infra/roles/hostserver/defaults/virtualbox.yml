@@ -1,0 +1,5 @@
+---
+virtualbox_rpm_url: http://download.virtualbox.org/virtualbox/5.1.10/VirtualBox-5.1-5.1.10_112026_el7-1.x86_64.rpm
+virtualbox_rpm_checksum: 1bc79c30f1e6a8cc14678ee0c430830b125fc8eaaa59c4413948263e7f0688c7
+virtualbox_rpm_file: VirtualBox-5.1-5.1.10_112026_el7-1.x86_64.rpm
+virtualbox_download_cache: /tmp/ansible-cache
