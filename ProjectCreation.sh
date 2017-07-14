@@ -36,4 +36,4 @@ fi
 git clone $git_URL
 
 #Execute Ansible host_playbook
-sudo ansible-playbook -i inventory_hostbase $PWD/DevOps/infra/site.yml --connection=local
+sudo ansible-playbook -i inventory_hostbase $PWD/DevOps2/infra/site.yml --connection=local
